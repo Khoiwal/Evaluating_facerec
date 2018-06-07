@@ -1,12 +1,16 @@
 # Evaluating_facerec
 Evaluating different face recognition on real and standard datasets
 
+INTRODUCTION---
+
 The Face Recognition techniques used in this project are PCA+SVM and Convolution Neural Networks(CNN). Support Vector Machine, one
 of the best known classifiers for images and state of the art Convolution Neural Networks which have currently set the benchmarks for face recognition accuracy are used here. The accuracies of the above mentioned techniques are compared on standard and real datasets. We found that CNN performs better with bigger datasets while PCA+SVM performs better for smaller datasets.
 
-Datasets: The AtnT dataset of faces is chosen as the standard dataset. We created a dataset of our own with a smaller set of images
+Datasets: 1. The AtnT dataset of faces is chosen as the standard dataset(referred to as the standard dataset)
 
-Files---
+2. We created a unique dataset of students in our university (referred to as the real dataset)
+
+FILES---
 
 dlib1.ipynb- Face detection performed using HOG(Histogram of Oriented Gradient) and face alignment performed using Landmark estimation. An API of the dlib library was used.
 
@@ -20,7 +24,7 @@ CNN standard.ipynb - Experimenting with multiple layered networks on the standar
 
 PCA dense standard-Copy1.ipynb - Experimenting with a network of only dense layers after feature extraction by PCA
 
-Conclusion--
+CONCLUSION---
 
 The comparison of accuracies of the algorithms PCA+SVM and CNN are performed on different datasets
 and the resulting conclusions are stated below:

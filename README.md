@@ -27,10 +27,16 @@ and the resulting conclusions are stated below:
 
  The real dataset shows lesser accuracy because of background noise, turned faces
 and different lighting
+
  Increasing the training set size increases the accuracy of standard dataset
+
  Decreasing the size of the images results in reduced accuracy
+
  Increasing training set size causes the real dataset to over-fit on the training data
+
  For larger image sizes background noise has a higher effect on the accuracy
+
  Optimized CNN performs better on larger datasets
+
  Enhanced accuracy is achieved for a dataset with more number of classes
 
